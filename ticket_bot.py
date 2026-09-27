@@ -67,5 +67,5 @@ async def setup_tickets(ctx):
     )
     await ctx.send(embed=embed, view=TicketView())
 
-TOKEN = "ТВОЙ_ТОКЕН_БОТА_ТИКЕТОВ"
+TOKEN = "VWjNCfQSESRSYpU3q4oWO5eFz8n64_tv"
 bot.run(TOKEN)
