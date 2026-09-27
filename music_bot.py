@@ -94,5 +94,5 @@ async def leave(ctx):
         await ctx.voice_client.disconnect()
         await ctx.send("👋 Бот покинул голосовой канал.")
 
-TOKEN = "ТВОЙ_ТОКЕН_МУЗЫКАЛЬНОГО_БОТА"
+TOKEN = "PYfY0uRNv2hqMuPstV5NNb5rhWzerVvK"
 bot.run(TOKEN)
