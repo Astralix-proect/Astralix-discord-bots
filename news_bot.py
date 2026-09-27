@@ -43,5 +43,5 @@ async def post_news(ctx, *, args: str):
     )
     await thread.send("Здесь можно оставить комментарии и обсудить данную новость!")
 
-TOKEN = "ТВОЙ_ТОКЕН_БОТА_НОВОСТЕЙ"
+TOKEN ="menc72IrcBmz87lqXvsb0e79Slcflgqb"
 bot.run(TOKEN)
