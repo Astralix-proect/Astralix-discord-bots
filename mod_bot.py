@@ -59,5 +59,5 @@ async def clear(ctx, amount: int = 10):
     await ctx.channel.purge(limit=amount + 1)
     msg = await ctx.send(f'🧹 Удалено {amount} сообщений.', delete_after=5)
 
-TOKEN = "ТВОЙ_ТОКЕН_БОТА_МОДЕРАЦИИ"
+TOKEN = "kN4iN5vU-iumkATL41494EA7SZ1DnG-n"
 bot.run(TOKEN)
